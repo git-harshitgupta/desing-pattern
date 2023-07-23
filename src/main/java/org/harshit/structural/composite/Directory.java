@@ -8,7 +8,8 @@ public class Directory extends File{
     private List<File> children = new ArrayList<>();
 
     public Directory(String name) {
-        super(name);    }
+        super(name);
+    }
 
     @Override
     public void ls() {
